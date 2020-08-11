@@ -1,0 +1,188 @@
+#NEXUS
+[Data written by write.nexus.data.R, Tue Aug 11 15:30:31 2020]
+BEGIN DATA;
+  DIMENSIONS NTAX=85 NCHAR=17;
+  FORMAT DATATYPE=DNA MISSING=? GAP=- INTERLEAVE=NO;
+  MATRIX
+    indica.xmas.island.ANWC27974         421334321842333434
+    longirostris.aus.ANWC28894           4213343418423311134
+    longirostris.aus.ANWC29959           421334141842331434
+    longirostris.aus.ANWC31543           421334341842331434
+    longirostris.aus.ANWC32557           421334341842331434
+    longirostris.aus.ANWC32626           421334741842331434
+    longirostris.aus.ANWC32641           421334341842331434
+    longirostris.aus.ANWC34022           421334341842331434
+    longirostris.aus.ANWC34077           421334341842331434
+    longirostris.aus.ANWC34429           421334341842331434
+    longirostris.aus.ANWC34582           421334741842331434
+    longirostris.aus.ANWC42894           421334141842331434
+    longirostris.aus.ANWC43702           421334341842331434
+    longirostris.aus.ANWC43703           421334341842331434
+    indica.malaysia.ANWC44351            421334321842131434
+    longirostris.aus.ANWC46354           4213347418423311134
+    longirostris.aus.ANWC49763           421334341842331434
+    longirostris.png.ANWC55964           421334141842331434
+    longirostris.png.ANWC56040           421334741842331434
+    longirostris.png.CAS.DPM506          421334341842331434
+    longirostris.png.CAS.DPM530          421334341842331434
+    longirostris.png.CAS.DPM536          421334341842331434
+    longirostris.png.CAS.JF3019          421334341842331434
+    longirostris.png.CAS.JF3031          421334341842331434
+    longirostris.png.CAS.JF3083          421334741842331434
+    longirostris.png.CAS.JF3084          421334741842331434
+    longirostris.png.CAS.JF3097          421334341842331434
+    longirostris.png.CAS.JF3110          421334341842331434
+    longirostris.png.CAS.JF3115          421334341842331434
+    longirostris.png.CAS.JF3117          421334341842331434
+    longirostris.png.CAS.JF3126          421334341842331434
+    longirostris.png.CAS.JPD453          421334341842331434
+    longirostris.png.CAS.JPD522          421334741842331434
+    longirostris.png.CAS.JPD526          421334141842331434
+    longirostris.png.CAS.JPD777          421334741842331434
+    longirostris.png.CAS.JPD782          421334341842331434
+    indica.china.KU10088                 421334321842131434
+    indica.china.KU10411                 421334321842341434
+    indica.malaysia.KU12404              421334321842131434
+    indica.philippines.KU12439           421334321842131434
+    indica.philippines.KU12629           4213343218427111434
+    indica.philippines.KU12673           421334321842131434
+    indica.philippines.KU12823           421334321842131434
+    indica.philippines.KU12947           421334321842131434
+    indica.philippines.KU14008           421332321842341434
+    indica.philippines.KU14078           421334321842131434
+    indica.philippines.KU14295           421334321842131434
+    indica.philippines.KU14321           421334321842131434
+    indica.philippines.KU14451           421334321842131434
+    indica.philippines.KU14470           421334321842131434
+    indica.philippines.KU15262           4213343218427111434
+    indica.philippines.KU15263           421334321842131434
+    indica.philippines.KU15278           421334321842131434
+    indica.philippines.KU17898           421334321842131434
+    indica.philippines.KU17914           421334321842131434
+    indica.philippines.KU17928           421334321842131434
+    indica.philippines.KU17941           421334321842131434
+    indica.philippines.KU18107           421334321842131414
+    indica.philippines.KU19307           421334321842131434
+    indica.philippines.KU19362           421334321842131434
+    indica.philippines.KU19398           421334321842341434
+    longirostris.solomons.KU19419        421334341842331434
+    indica.philippines.KU20978           421334321842131434
+    indica.vietnam.KU23260               421334321842131434
+    longirostris.vanuatu.LSU45432        421334341842331434
+    longirostris.vanuatu.LSU45458        421334341842331434
+    longirostris.indonesia.WAM22924      421334341842331434
+    indica.xmas.island.WAM36166          421334321842333434
+    indica.xmas.island.WAM36642          421334321842333434
+    indica.xmas.island.WAM38624          421334321842333434
+    stephani.png.CAS.JF3048              42139434181023334310
+    stephani.png.CAS.ZRH857              421334341822333434
+    stephani.png.KU12228                 4213343418102333434
+    stephani.solomons.KU15887            4213243418410333434
+    stephani.solomons.KU15912            421324341842333434
+    stephani.solomons.KU15919            421324341842333434
+    stephani.solomons.KU15934            421324341842333434
+    stephani.solomons.KU19423            421324341842333434
+    stephani.solomons.KU19425            421324341842333434
+    stephani.png.KU5304                  421334341822333434
+    stephani.png.KU5577                  421334341842333434
+    stephani.png.KU6891                  4213343418102333434
+    stephani.png.KU6905                  42139434181010333434
+    stephani.png.KU7146                  421334341822333434
+    stephani.png.KU7287                  421334341842333434
+  ;
+END;
+
+begin traits;
+	dimensions ntraits=3;
+	format labels=yes missing=? separator=comma;
+	traitlabels indica longirostris stephani;
+	matrix
+indica.xmas.island.ANWC27974 1,0,0
+longirostris.aus.ANWC28894 0,1,0
+longirostris.aus.ANWC29959 0,1,0
+longirostris.aus.ANWC31543 0,1,0
+longirostris.aus.ANWC32557 0,1,0
+longirostris.aus.ANWC32626 0,1,0
+longirostris.aus.ANWC32641 0,1,0
+longirostris.aus.ANWC34022 0,1,0
+longirostris.aus.ANWC34077 0,1,0
+longirostris.aus.ANWC34429 0,1,0
+longirostris.aus.ANWC34582 0,1,0
+longirostris.aus.ANWC42894 0,1,0
+longirostris.aus.ANWC43702 0,1,0
+longirostris.aus.ANWC43703 0,1,0
+indica.malaysia.ANWC44351 1,0,0
+longirostris.aus.ANWC46354 0,1,0
+longirostris.aus.ANWC49763 0,1,0
+longirostris.png.ANWC55964 0,1,0
+longirostris.png.ANWC56040 0,1,0
+longirostris.png.CAS.DPM506 0,1,0
+longirostris.png.CAS.DPM530 0,1,0
+longirostris.png.CAS.DPM536 0,1,0
+longirostris.png.CAS.JF3019 0,1,0
+longirostris.png.CAS.JF3031 0,1,0
+longirostris.png.CAS.JF3083 0,1,0
+longirostris.png.CAS.JF3084 0,1,0
+longirostris.png.CAS.JF3097 0,1,0
+longirostris.png.CAS.JF3110 0,1,0
+longirostris.png.CAS.JF3115 0,1,0
+longirostris.png.CAS.JF3117 0,1,0
+longirostris.png.CAS.JF3126 0,1,0
+longirostris.png.CAS.JPD453 0,1,0
+longirostris.png.CAS.JPD522 0,1,0
+longirostris.png.CAS.JPD526 0,1,0
+longirostris.png.CAS.JPD777 0,1,0
+longirostris.png.CAS.JPD782 0,1,0
+indica.china.KU10088 1,0,0
+indica.china.KU10411 1,0,0
+indica.malaysia.KU12404 1,0,0
+indica.philippines.KU12439 1,0,0
+indica.philippines.KU12629 1,0,0
+indica.philippines.KU12673 1,0,0
+indica.philippines.KU12823 1,0,0
+indica.philippines.KU12947 1,0,0
+indica.philippines.KU14008 1,0,0
+indica.philippines.KU14078 1,0,0
+indica.philippines.KU14295 1,0,0
+indica.philippines.KU14321 1,0,0
+indica.philippines.KU14451 1,0,0
+indica.philippines.KU14470 1,0,0
+indica.philippines.KU15262 1,0,0
+indica.philippines.KU15263 1,0,0
+indica.philippines.KU15278 1,0,0
+indica.philippines.KU17898 1,0,0
+indica.philippines.KU17914 1,0,0
+indica.philippines.KU17928 1,0,0
+indica.philippines.KU17941 1,0,0
+indica.philippines.KU18107 1,0,0
+indica.philippines.KU19307 1,0,0
+indica.philippines.KU19362 1,0,0
+indica.philippines.KU19398 1,0,0
+longirostris.solomons.KU19419 0,1,0
+indica.philippines.KU20978 1,0,0
+indica.vietnam.KU23260 1,0,0
+longirostris.vanuatu.LSU45432 0,1,0
+longirostris.vanuatu.LSU45458  0,1,0
+longirostris.indonesia.WAM22924 0,1,0
+indica.xmas.island.WAM36166 1,0,0
+indica.xmas.island.WAM36642 1,0,0
+indica.xmas.island.WAM38624 1,0,0
+stephani.png.CAS.JF3048 0,0,1
+stephani.png.CAS.ZRH857 0,0,1
+stephani.png.KU12228 0,0,1
+stephani.solomons.KU15887 0,0,1
+stephani.solomons.KU15912 0,0,1
+stephani.solomons.KU15919 0,0,1
+stephani.solomons.KU15934 0,0,1
+stephani.solomons.KU19423 0,0,1
+stephani.solomons.KU19425 0,0,1
+stephani.png.KU5304 0,0,1
+stephani.png.KU5577 0,0,1
+stephani.png.KU6891 0,0,1
+stephani.png.KU6905 0,0,1
+stephani.png.KU7146 0,0,1
+stephani.png.KU7287 0,0,1
+;
+
+end;
+
