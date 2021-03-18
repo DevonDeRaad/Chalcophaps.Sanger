@@ -1,7 +1,7 @@
 #NEXUS
 [Data written by write.nexus.data.R, Fri Aug  7 16:07:57 2020]
 BEGIN DATA;
-  DIMENSIONS NTAX=85 NCHAR=207;
+  DIMENSIONS NTAX=84 NCHAR=207;
   FORMAT DATATYPE=DNA MISSING=? GAP=- INTERLEAVE=NO;
   MATRIX
     indica.xmas.island.ANWC27974		ttctctcatatgatgccgtaagtgctgagttacaactctctaagctgcagttcatgtaaactcagtgatggagattgtttcaaattacacg----gtttgtgatatgtgcctatcgaattacttccccagtagagggtggtgtttctctgctcgtcctgctctgctttagcagactcctgaatgtgtccctgtacttgaaatttttg
@@ -12,7 +12,6 @@ BEGIN DATA;
     longirostris.aus.ANWC32626		ttctctcatatgatgccgtaagtgctgagttacaactctctaagctgcagttcatgtaaactcagtgatggarattgtttcaaattacatg----gtttgtgatatgtgcctatcgaattacttccccagtagagggtggtgtttctctgctcatcctgctctgctttagcagactcctgaatgtgtccctgtacttgaaatttttg
     longirostris.aus.ANWC32641		ttctctcatatgatgccgtaagtgctgagttacaactctctaagctgcagttcatgtaaactcagtgatggagattgtttcaaattacatg----gtttgtgatatgtgcctatcgaattacttccccagtagagggtggtgtttctctgctcatcctgctctgctttagcagactcctgaatgtgtccctgtacttgaaatttttg
     longirostris.aus.ANWC34022		ttctctcatatgatgccgtaagtgctgagttacaactctctaagctgcagttcatgtaaactcagtgatggagattgtttcaaattacatg----gtttgtgatatgtgcctatcgaattacttccccagtagagggtggtgtttctctgctcatcctgctctgctttagcagactcctgaatgtgtccctgtacttgaaatttttg
-    longirostris.aus.ANWC34077		ttctctcatatgatgccgtaagtgctgagttacaactctctaagctgcagttcatgtaaactcagtgatggagattgtttcaaattacatg----gtttgtgatatgtgcctatcgaattacttccccagtagagggtggtgtttctctgctcatcctgctctgctttagcagactcctgaatgtgtccctgtacttgaaatttttg
     longirostris.aus.ANWC34429		ttctctcatatgatgccgtaagtgctgagttacaactctctaagctgcagttcatgtaaactcagtgatggagattgtttcaaattacatg----gtttgtgatatgtgcctatcgaattacttccccagtagagggtggtgtttctctgctcatcctgctctgctttagcagactcctgaatgtgtccctgtacttgaaatttttg
     longirostris.aus.ANWC34582		ttctctcatatgatgccgtaagtgctgagttacaactctctaagctgcagttcatgtaaactcagtgatggarattgtttcaaattacatg----gtttgtgatatgtgcctatcgaattacttccccagtagagggtggtgtttctctgctcatcctgctctgctttagcagactcctgaatgtgtccctgtacttgaaatttttg
     longirostris.aus.ANWC42894		ttctctcatatgatgccgtaagtgctgagttacaactctctaagctgcagttcatgtaaactcagtgatggaaattgtttcaaattacatg----gtttgtgatatgtgcctatcgaattacttccccagtagagggtggtgtttctctgctcatcctgctctgctttagcagactcctgaatgtgtccctgtacttgaaatttttg
@@ -105,7 +104,6 @@ longirostris.aus.ANWC32557 0,1,0
 longirostris.aus.ANWC32626 0,1,0
 longirostris.aus.ANWC32641 0,1,0
 longirostris.aus.ANWC34022 0,1,0
-longirostris.aus.ANWC34077 0,1,0
 longirostris.aus.ANWC34429 0,1,0
 longirostris.aus.ANWC34582 0,1,0
 longirostris.aus.ANWC42894 0,1,0
