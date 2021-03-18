@@ -1,1 +1,1 @@
-raw fasta alignments and locality information for each sample.
+raw fasta alignments for each gene.
