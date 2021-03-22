@@ -11,6 +11,10 @@ library(ggtree)
 library(tidytree)
 library(gridExtra)
 
+library(ggplot2)
+library(ggtree)
+
+
 #Chalcophaps analysis
 
 #import csv with locality info
@@ -53,21 +57,22 @@ map<-ggplot()+
   scale_size_continuous(range = c(3,5), breaks = c(1,2,3))+
   guides(colour = guide_legend(override.aes = list(size = 4), order=1, label.theme = element_text(face = "italic")),
          size = guide_legend(nrow = 1, order = 2))+
-  theme(legend.position = c(0.01, 0.01), legend.justification = c(0.01, 0.01))
+  theme(legend.position = c(0.01, 0.01), legend.justification = c(0.01, 0.01))+
+  labs(x = "longitude", y = "latitude")
 
 #map complete#
 
 #read in tree
-beast_tree <- read.beast("~/Dropbox/Chalcophaps/spring.2020/concat.mcc.beast.tree")
+beast_tree <- read.beast("~/Dropbox/Chalcophaps/beast.beauti/sy.sum.tree")
 
 #tree no color coding
 ggtree(beast_tree)+ geom_tiplab(cex=2)+
   geom_text2(aes(label=round(as.numeric(posterior), 2), 
-                 subset=as.numeric(posterior)> 0.95), cex=3, vjust=-.2, hjust=1)+
+                 subset=as.numeric(posterior) == 1), cex=3, vjust=-.2, hjust=1)+
   xlim(0, .06)
 
 #color code labels 
-ggtree(beast_tree)+ geom_tiplab(cex=2, color=c(rep("red", times=40), rep("blue", times=47)))+
+ggtree(beast_tree)+ geom_tiplab(cex=2, color=c(rep("red", times=40), rep("blue", times=46)))+
   geom_text2(aes(label=round(as.numeric(posterior), 2), 
                  subset=as.numeric(posterior)> 0.9), cex=3, vjust=-.2, hjust=1)+
   xlim(0, .06)
@@ -99,19 +104,19 @@ ggtree(beast_tree)+
 viewClade(ggtree(beast_tree)+
             geom_tiplab(cex=2)+
             geom_text2(aes(label=round(as.numeric(posterior), 2), 
-                           subset=as.numeric(posterior)> 0.95), cex=3, vjust=-.2, hjust=1)+
+                           subset=as.numeric(posterior) == 1), cex=3, vjust=-.2, hjust=1)+
             xlim(0, .06)+
             geom_tippoint(color=col.vec, cex=2), 
-          node=90)
+          node=89)
 
 #rotate tree around root node
-viewClade(ggtree(beast_tree) %>% rotate(90)+
+viewClade(ggtree(beast_tree) %>% rotate(89)+
             geom_tiplab(cex=2)+
             geom_text2(aes(label=round(as.numeric(posterior), 2), 
-                           subset=as.numeric(posterior)> 0.95), cex=3, vjust=-.2, hjust=1)+
+                           subset=as.numeric(posterior) == 1), cex=3, vjust=-.2, hjust=1)+
             xlim(0, .06)+
             geom_tippoint(color=col.vec, cex=2), 
-          node=90)
+          node=89)
 
 #remove subspecies from the tip labels
 beast_tree@phylo$tip.label
@@ -144,26 +149,26 @@ viewClade(ggtree(beast_tree) %>% rotate(90)+
                        cex=3, vjust=-.2, hjust=1)+
             xlim(0, .06)+
             geom_tippoint(color=col.vec, cex=2, alpha=.8), 
-          node=90)
+          node=89)
 
 #add clade labels
-tree<-viewClade(ggtree(beast_tree) %>% rotate(90)+
+tree<-viewClade(ggtree(beast_tree) %>% rotate(89)+
             geom_tiplab(cex=2)+
             geom_text2(aes(label=round(as.numeric(posterior), 2), 
-                           subset=as.numeric(posterior)> 0.95), cex=3, vjust=-.2, hjust=1)+
+                           subset=as.numeric(posterior)== 1), cex=4, vjust=-.25, hjust=1.3)+
             xlim(0, .0655)+
             geom_tippoint(color=col.vec, cex=2, alpha=.8)+
-            geom_cladelabel(161, paste("Solomon Islands"), offset = .0048, align = TRUE, extend = c(0.15, 0.15), fontsize =3)+
-            geom_cladelabel(82, paste("New Britain"), offset = .0048, align = TRUE, extend = c(0.15, 0.15), fontsize =3)+
-            geom_cladelabel(167, paste("Papua New Guinea"), offset = .0048, align = TRUE, extend = c(0.15, 0.15), fontsize =3)+
-            geom_cladelabel(72, paste("Timor Island"), offset = .0048, align = TRUE, extend = c(0.15, 0.15), fontsize =3)+
-            geom_cladelabel(119, paste("China, Philippines"), offset = .0048, align = TRUE, extend = c(0.15, 0.15), fontsize =3)+
-            geom_cladelabel(121, paste("Christmas Island"), offset = .0048, align = TRUE, extend = c(0.15, 0.15), fontsize =3)+
-            geom_cladelabel(94, paste("China,\nPhilippines,\nVietnam,\nMalaysia"), offset = .0048, align = TRUE, extend = c(0.15, 0.15), fontsize =3)+
-            geom_cladelabel(158, paste("Vanuatu,\nSanta Cruz Islands"), offset = .0048, align = TRUE, extend = c(0.15, 0.15), fontsize =3)+
-            geom_cladelabel(125, paste("Australia,\nPapua New Guinea,\nLouisiade Archipelago"), offset = .0048, align = TRUE, extend = c(0.15, 0.15), fontsize =3)+
+            geom_cladelabel(159, paste("Solomon Islands"), offset = .0048, align = TRUE, extend = c(0.15, 0.15), fontsize =3)+
+            geom_cladelabel(81, paste("New Britain"), offset = .0048, align = TRUE, extend = c(0.15, 0.15), fontsize =3)+
+            geom_cladelabel(165, paste("Papua New Guinea"), offset = .0048, align = TRUE, extend = c(0.15, 0.15), fontsize =3)+
+            geom_cladelabel(71, paste("Timor Island"), offset = .0048, align = TRUE, extend = c(0.15, 0.15), fontsize =3)+
+            geom_cladelabel(118, paste("China, Philippines"), offset = .0048, align = TRUE, extend = c(0.15, 0.15), fontsize =3)+
+            geom_cladelabel(120, paste("Christmas Island"), offset = .0048, align = TRUE, extend = c(0.15, 0.15), fontsize =3)+
+            geom_cladelabel(93, paste("China,\nPhilippines,\nVietnam,\nMalaysia"), offset = .0048, align = TRUE, extend = c(0.15, 0.15), fontsize =3)+
+            geom_cladelabel(156, paste("Vanuatu,\nSanta Cruz Islands"), offset = .0048, align = TRUE, extend = c(0.15, 0.15), fontsize =3)+
+            geom_cladelabel(124, paste("Australia,\nPapua New Guinea,\nLouisiade Archipelago"), offset = .0048, align = TRUE, extend = c(0.15, 0.15), fontsize =3)+
             geom_treescale(fontsize=3, linesize=2, width = 1, x=.02,y=.02)
-          ,node=90)
+          ,node=89)
 
 tree
 
