@@ -1,0 +1,85 @@
+﻿Genus,Species,Subspecies,Type,Museum,Tissue Number,Specimen number,IQGAP2 genbank accession,GPBP genabank accession,ND2 genbank accession,Prep number,Lat,Long,Country,Locality
+Chalcophaps,indica,indica,voucher,ANWC,B44351,B44351,MZ618541,MZ618457,MZ618373,,3.5,101.67,Malaysia,"GOMBAK, 20KM NE OF KUALA LUMPUR"
+Chalcophaps,indica,indica,voucher,KU,10088,93309,MZ618563,MZ618479,MZ618395,AN 422,23.12,105.96,China,Guangxi
+Chalcophaps,indica,indica,voucher,KU,10411,96422,MZ618564,MZ618480,MZ618396,TJD 6267,21.84,107.88,China,Guangxi
+Chalcophaps,indica,indica,voucher,KU,12404,111270,MZ618565,MZ618481,MZ618397,RGM 858,2.94,113.03,Malaysia,Sarawak
+Chalcophaps,indica,indica,voucher,KU,12439,99039,MZ618566,MZ618482,MZ618398,CHO-B-135,18.9,121.91,Philippines,Camiguin Norte
+Chalcophaps,indica,indica,voucher,KU,12629,99082,MZ618567,MZ618483,MZ618399,CHO-B-274,9.84,118.64,Philippines,Palawan
+Chalcophaps,indica,indica,voucher,KU,12673,99083,MZ618568,MZ618484,MZ618400,CHO-B-309,9.84,118.64,Philippines,Palawan
+Chalcophaps,indica,indica,voucher,KU,12823,99084,MZ618569,MZ618485,MZ618401,REF 43,8.75,117.69,Philippines,Palawan
+Chalcophaps,indica,indica,voucher,KU,12947,110341,MZ618570,MZ618486,MZ618402,REF 156,9.18,124.72,Philippines,Camiguin Sur
+Chalcophaps,indica,indica,voucher,KU,14008,110429,MZ618571,MZ618487,MZ618403,REF 258,9.19,124.71,Philippines,Camiguin Sur
+Chalcophaps,indica,indica,voucher,KU,14078,110610,MZ618572,MZ618488,MZ618404,REF 327,10.34,125.62,Philippines,Dinagat
+Chalcophaps,indica,indica,voucher,KU,14295,110773,MZ618573,MZ618489,MZ618405,REF 513,10.74,124.84,Philippines,Leyte
+Chalcophaps,indica,indica,voucher,KU,14321,110439,MZ618574,MZ618490,MZ618406,REF 51,9.18,124.72,Philippines,Camiguin Norte
+Chalcophaps,indica,indica,voucher,KU,14451,111386,MZ618575,MZ618491,MZ618407,CHO-B-374,12.61,122.05,Philippines,Tablas
+Chalcophaps,indica,indica,voucher,KU,14470,113082,MZ618576,MZ618492,MZ618408,CHO-B-393,12.61,122.05,Philippines,Tablas
+Chalcophaps,indica,indica,voucher,KU,15262,98729,MZ618577,MZ618493,MZ618409,CHO-B-2,19.1,121.22,Philippines,Dalupiri
+Chalcophaps,indica,indica,voucher,KU,15263,98730,MZ618578,MZ618494,MZ618410,CHO-B-3,19.1,121.22,Philippines,Dalupiri
+Chalcophaps,indica,indica,voucher,KU,15278,98695,MZ618579,MZ618495,MZ618411,CHO-B-18,10.81,122.18,Philippines,Panay
+Chalcophaps,indica,indica,voucher,KU,17898,113056,MZ618580,MZ618496,MZ618412,CHO 477,20.47,121.99,Philippines,Batan
+Chalcophaps,indica,indica,voucher,KU,17914,112380,MZ618581,MZ618497,MZ618413,CHO 493,20.29,121.87,Philippines,Sabtang
+Chalcophaps,indica,indica,voucher,KU,17928,112381,MZ618582,MZ618498,MZ618414,CHO 507,20.29,121.87,Philippines,Sabtang
+Chalcophaps,indica,indica,voucher,KU,17941,112364,MZ618583,MZ618499,MZ618415,CHO 520,20.38,121.93,Philippines,Batan
+Chalcophaps,indica,indica,voucher,KU,18107,112434,MZ618584,MZ618500,MZ618416,PAH 473,6.98,122.07,Philippines,Mindanao
+Chalcophaps,indica,indica,voucher,KU,19307,116433,MZ618585,MZ618501,MZ618417,CHO 1049,13.8,120.16,Philippines,Lubang
+Chalcophaps,indica,indica,voucher,KU,19362,116432,MZ618586,MZ618502,MZ618418,CHO 1104,13.8,120.16,Philippines,Lubang
+Chalcophaps,indica,indica,voucher,KU,19398,116642,MZ618587,MZ618503,MZ618419,CHO 1140,10.67,123.19,Philippines,Luzon
+Chalcophaps,indica,indica,voucher,KU,20978,114482,MZ618589,MZ618505,MZ618421,CHO 1358,9.76,124.28,Philippines,Bohol
+Chalcophaps,indica,indica,voucher,KU,23260,116768,MZ618590,MZ618506,MZ618422,NHR 2717,11.38,107.06,Vietnam,Dong Nai
+Chalcophaps,indica,natalis,voucher,ANWC,B27974,B27974,MZ618528,MZ618444,MZ618360,,-10.5,105.58,Australia,Christmas Island
+Chalcophaps,indica,natalis,voucher,WAM,A36166,A36166,MZ618594,MZ618510,MZ618426,,-10.58,105.67,Australia,Christmas Island
+Chalcophaps,indica,natalis,voucher,WAM,A36642,A36642,MZ618595,MZ618511,MZ618427,,-10.58,105.67,Australia,Christmas Island
+Chalcophaps,indica,natalis,voucher,WAM,A38624,A38624,MZ618596,MZ618512,MZ618428,,-10.5,105.67,Australia,Christmas Island
+Chalcophaps,longirostris,longirostris,voucher,ANWC,B34022,B34022,MZ618535,MZ618451,MZ618367,,-12.83,131.65,Australia,"ANNABURROO STATION, MARY RIVER"
+Chalcophaps,longirostris,rogersi,voucher,ANWC,B28894,B28894,MZ618529,MZ618445,MZ618361,,-26.68,153.05,Australia,BUDERIM
+Chalcophaps,longirostris,rogersi,voucher,ANWC,B29959,B29959,MZ618530,MZ618446,MZ618362,,-17.35,145.67,Australia,"BUTCHERS CREEK, MALANDA, ATHERTON TABLELAND"
+Chalcophaps,longirostris,rogersi,voucher,ANWC,B31543,B31543,MZ618531,MZ618447,MZ618363,,-15.79,145.23,Australia,"RIDGE ABOVE SHIPTONS FLAT, C.50 KM S OF COOKTOWN"
+Chalcophaps,longirostris,rogersi,voucher,ANWC,B32557,B32557,MZ618532,MZ618448,MZ618364,,-16.62,145.33,Australia,JULATTEN
+Chalcophaps,longirostris,rogersi,voucher,ANWC,B32626,B32626,MZ618533,MZ618449,MZ618365,,-16.62,145.33,Australia,JULATTEN
+Chalcophaps,longirostris,rogersi,voucher,ANWC,B32641,B32641,MZ618534,MZ618450,MZ618366,,-16.62,145.33,Australia,JULATTEN
+Chalcophaps,longirostris,rogersi,voucher,ANWC,B34429,B34429,MZ618536,MZ618452,MZ618368,,-17.35,145.67,Australia,"MALANDA, ATHERTON TABLELAND"
+Chalcophaps,longirostris,rogersi,voucher,ANWC,B34582,B34582,MZ618537,MZ618453,MZ618369,,-17.35,145.67,Australia,"MALANDA, ATHERTON TABLELAND"
+Chalcophaps,longirostris,rogersi,voucher,ANWC,B42894,B42894,MZ618538,MZ618454,MZ618370,,-13.83,143.46,Australia,"EASTERN MCILWRAITH RANGE LOWLANDS, CAPE YORK PENINSULA"
+Chalcophaps,longirostris,rogersi,voucher,ANWC,B43702,B43702,MZ618539,MZ618455,MZ618371,,-22.8,150.6,Australia,"SHOALWATER BAY ARMY TRAINING RESERVE, N OF ROCKHAMPTON"
+Chalcophaps,longirostris,rogersi,voucher,ANWC,B43703,B43703,MZ618540,MZ618456,MZ618372,,-22.8,150.6,Australia,"SHOALWATER BAY ARMY TRAINING RESERVE, N OF ROCKHAMPTON"
+Chalcophaps,longirostris,rogersi,voucher,ANWC,B46354,B46354,MZ618542,MZ618458,MZ618374,,-32.22,151.42,Australia,"MASSEYS CREEK STATE FOREST, C.50 KM NE OF SINGLETON"
+Chalcophaps,longirostris,rogersi,voucher,ANWC,B49763,B49763,MZ618543,MZ618459,MZ618375,,-26.68,153.05,Australia,BUDERIM
+Chalcophaps,longirostris,rogersi,voucher,ANWC,B55964,B55964,MZ618544,MZ618460,MZ618376,,-8.71,146.53,Papua New Guinea,
+Chalcophaps,longirostris,rogersi,voucher,ANWC,B56040,B56040,MZ618545,MZ618461,MZ618377,,-9,146.8,Papua New Guinea,
+Chalcophaps,longirostris,rogersi,blood,CAS,DPM506,-,MZ618546,MZ618462,MZ618378,DPM506,-10.6,151.38,Papua New Guinea,"Hummock Island, Engineer Group, Milne Bay Province"
+Chalcophaps,longirostris,rogersi,blood,CAS,DPM530,-,MZ618547,MZ618463,MZ618379,DPM530,-10.76,152.39,Papua New Guinea,"Anea Village, Panapompom Island, Deboyne Group, Louisiade Archipelago, Milne Bay Province"
+Chalcophaps,longirostris,rogersi,blood,CAS,DPM536,-,MZ618548,MZ618464,MZ618380,DPM536,-10.76,152.39,Papua New Guinea,"Anea Village, Panapompom Island, Deboyne Group, Louisiade Archipelago, Milne Bay Province"
+Chalcophaps,longirostris,rogersi,voucher,CAS,97849,97849,MZ618549,MZ618465,MZ618381,JF3019,-10.03,150.98,Papua New Guinea,"Gewagewai, hill above Sibonai Village guest house, Sewa Bay, Normanby Island, Esa'Ala District"
+Chalcophaps,longirostris,rogersi,blood,CAS,JF3031,-,MZ618550,MZ618466,MZ618382,JF3031,-9.24,150.9,Papua New Guinea,"Waema Island, Amphlet Island group, Esa'Ala District"
+Chalcophaps,longirostris,rogersi,voucher,CAS,97896,97896,MZ618551,MZ618467,MZ618383,JF3083,-9.3,153.69,Papua New Guinea,"Budaduna Island, Budibudi Islands (=Laughlan Islands)"
+Chalcophaps,longirostris,rogersi,voucher,CAS,97897,97897,MZ618552,MZ618468,MZ618384,JF3084,-9.29,152.83,Papua New Guinea,"Eyon Island, off Woodlark Island"
+Chalcophaps,longirostris,rogersi,voucher,CAS,97905,97905,MZ618553,MZ618469,MZ618385,JF3097,-9.27,151.9,Papua New Guinea,"close to Yanaba Village, Yanaba Island, Egum Atoll"
+Chalcophaps,longirostris,rogersi,voucher,CAS,97910,97910,MZ618554,MZ618470,MZ618386,JF3110,-8.8,151.91,Papua New Guinea,Dugemenu Is (Bennett Marshall Is Group)
+Chalcophaps,longirostris,rogersi,voucher,CAS,97913,97913,MZ618555,MZ618471,MZ618387,JF3115,-8.63,151.31,Papua New Guinea,"Nuratu Is (200  mWest off Kitava, Trobriands Group)"
+Chalcophaps,longirostris,rogersi,voucher,CAS,97915,97915,MZ618556,MZ618472,MZ618388,JF3117,-8.63,151.31,Papua New Guinea,"Nuratu Is (200  mWest off Kitava, Trobriands Group)"
+Chalcophaps,longirostris,rogersi,voucher,CAS,97918,97918,MZ618557,MZ618473,MZ618389,JF3126,-8.83,151.15,Papua New Guinea,"Simleyia, Vakuta Islans (Trobriands Group)"
+Chalcophaps,longirostris,rogersi,blood,CAS,JPD453,-,MZ618558,MZ618474,MZ618390,JPD453,-10.6,151.38,Papua New Guinea,"Hummock Island, Engineer Group, Milne Bay Province"
+Chalcophaps,longirostris,rogersi,blood,CAS,JPD522,-,MZ618559,MZ618475,MZ618391,JPD522,-11.13,152.69,Papua New Guinea,"Korobesea Village, Bagaman island, Calvados Chain, Louisiade Archipelago, Milne Bay Province"
+Chalcophaps,longirostris,rogersi,voucher,CAS,99398,99398,MZ618560,MZ618476,MZ618392,JPD526,-11.13,152.69,Papua New Guinea,"Korobesea Village, Bagaman island, Calvados Chain, Louisiade Archipelago, Milne Bay Province"
+Chalcophaps,longirostris,rogersi,blood,CAS,JPD777,-,MZ618561,MZ618477,MZ618393,JPD777,-9.57,150.51,Papua New Guinea,"Duchess Island, off Normanby Island"
+Chalcophaps,longirostris,rogersi,blood,CAS,JPD782,-,MZ618562,MZ618478,MZ618394,JPD782,-9.57,150.51,Papua New Guinea,"Duchess Island, off Normanby Island"
+Chalcophaps,longirostris,sandwichensis,voucher,KU,19419,113187,MZ618588 ,MZ618504,MZ618420,RGM 1163,-10.78,165.85,Solomon Islands,Santa Cruz
+Chalcophaps,longirostris,sandwichensis,voucher,LSUMNH,45432,-,MZ618591,MZ618507,MZ618423,,-15.3442294,166.93229,Vanuatu,
+Chalcophaps,longirostris,sandwichensis,voucher,LSUMNH,45458,-,MZ618592,MZ618508,MZ618424,,-15.3442294,166.93229,Vanuatu,
+Chalcophaps,longirostris,timorensis,voucher,WAM,A22924,A22924,MZ618593,MZ618509,MZ618425,,-9.97,124,Indonesia,Timor Island
+Chalcophaps,stephani,mortoni,voucher,KU,15887,111337,MZ618600,MZ618516,MZ618432,RGM 988,-9.5,159.98,Solomon Islands,Guadalcanal
+Chalcophaps,stephani,mortoni,voucher,KU,15912,114974,MZ618601,MZ618517,MZ618433,RGM 1013,-9.5,159.98,Solomon Islands,Guadalcanal
+Chalcophaps,stephani,mortoni,voucher,KU,15919,111370,MZ618602,MZ618518,MZ618434,RGM 1020,-10.25,161.76,Solomon Islands,Ugi
+Chalcophaps,stephani,mortoni,voucher,KU,15934,111368,MZ618603,MZ618519,MZ618435,RGM 1035,-8.26,157.15,Solomon Islands,New Georgia Group: Kohingo
+Chalcophaps,stephani,mortoni,voucher,KU,19423,126055,MZ618604,MZ618520,MZ618436,RGM 1167,-8.4,160.59,Solomon Islands,Malaita
+Chalcophaps,stephani,mortoni,voucher,KU,19425,113196,MZ618605,MZ618521,MZ618437,RGM 1169,-8.4,160.59,Solomon Islands,Malaita
+Chalcophaps,stephani,stephani,voucher,CAS,97883,97883,MZ618597,MZ618513,MZ618429,JF3048,-10.42,150.4,Papua New Guinea,"Wagawaga, Milne Bay on the mainland"
+Chalcophaps,stephani,stephani,voucher,CAS,98019,98019,MZ618598,MZ618514,MZ618430,ZRH857,-10.42,150.4,Papua New Guinea,"Gua ulu ulu Bush, below Treetops lodge, near Waga waga village"
+Chalcophaps,stephani,stephani,voucher,KU,12228,111677,MZ618599,MZ618515,MZ618431,BWB 1197,-4.71,145.4,Papua New Guinea,Mandang
+Chalcophaps,stephani,stephani,voucher,KU,5304,92002,MZ618606,MZ618522,MZ618438,ALM 1196,-5.37,151.1,Papua New Guinea,East New Britain
+Chalcophaps,stephani,stephani,voucher,KU,5577,97887,MZ618607,MZ618523,MZ618439,ALM 1527,-6.92,144.96,Papua New Guinea,Gulf
+Chalcophaps,stephani,stephani,voucher,KU,6891,97025,MZ618608,MZ618524,MZ618440,SEA 323,-9.55,149.07,Papua New Guinea,Oro
+Chalcophaps,stephani,stephani,voucher,KU,6905,97026,MZ618609,MZ618525,MZ618441,BWB 641,-9.55,149.07,Papua New Guinea,Oro
+Chalcophaps,stephani,stephani,voucher,KU,7146,97823,MZ618610,MZ618526,MZ618442,ALM 1679,-4.48,145.03,Papua New Guinea,Mandang
+Chalcophaps,stephani,stephani,voucher,KU,7287,97890,MZ618611,MZ618527,MZ618443,ALM 1821,-4.48,145.03,Papua New Guinea,Mandang
